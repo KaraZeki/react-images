@@ -1,10 +1,9 @@
 function ImageItem(img) {
   const imageUrl =img.image.urls.small;
   return (
-    <div>
-      <img src={imageUrl} alt="" />
+    <div className='imageDiv'>
+      <img className='Img' src={imageUrl} alt=""></img>
     </div>
   );
 }
-
 export default ImageItem;
